@@ -3,7 +3,7 @@
 
 https://squidfunk.github.io/mkdocs-material/creating-your-site/
 
-### Run local
+### Run local for preview
 ```
 mkdocs serve
 ```
