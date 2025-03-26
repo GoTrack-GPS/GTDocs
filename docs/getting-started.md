@@ -176,9 +176,10 @@ git clone https://github.com/squidfunk/mkdocs-material.git
 ```
 
 Next, install the theme and its dependencies with:
-con
+
 ```
 pip install -e mkdocs-material
 ```
 
   [GitHub]: https://github.com/squidfunk/mkdocs-material
+

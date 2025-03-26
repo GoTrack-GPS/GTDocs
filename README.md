@@ -1,5 +1,5 @@
 
-### Ref link: 
+### Ref link:
 
 https://github.com/n8n-io/n8n-docs
 
