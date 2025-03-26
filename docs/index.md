@@ -1,6 +1,7 @@
 # Welcome to GoTrack Docs Center
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Ok for now.
 
 ## Commands
 
