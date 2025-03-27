@@ -1,4 +1,4 @@
-# Welcome to GoTrack Docs Center
+# Chào mừng bạn đến với trung tâm hỗ trợ
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 Ok for now.
