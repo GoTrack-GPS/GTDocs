@@ -65,6 +65,8 @@ nav:
   - Home: index.md
   - Getting started:
     - Installation: getting-started.md
+  - Devices:
+    - Overview: overview.md
 
 # Additional configuration
 extra:
