@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: GoTrack Help Center
-site_url: https://doc.gotrack365.com/help
+site_url: https://support.gotrack365.com/help
 site_author: GoTrack
 site_description: >-
   Official Documentation Center from GoTrack
@@ -34,7 +34,7 @@ theme:
       toggle:
         icon: material/link
         name: Switch to light mode
-    
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -43,7 +43,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    
+
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
