@@ -92,6 +92,8 @@ theme:
 # Plugins
 plugins:
   - blog
+    # Search is built in, but must be enabled when you add other plugins
+  - search
 
 # Additional configuration
 extra:

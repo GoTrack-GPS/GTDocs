@@ -3,7 +3,7 @@
 contentType: [device, dashcam]
 ---
 
-# Tập lệnh Platform
+# Tập lệnh Platform cho thiết bị GH13P
 
 ## Cài đặt bật/tắt audio
 
