@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: GoTrack Support Center
+site_name: GoTrack Support Center _
 site_url: https://support.gotrack365.com
 site_author: GoTrack
 site_description: >-
@@ -8,25 +8,64 @@ site_description: >-
 # Copyright
 copyright: Copyright &copy; 2013 - 2025 GoTrack GPS
 
+# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-css
+extra_css:
+  - _extra/css/extra.css
+  - _extra/css/macro-styles.css
+  - _extra/css/templates-widget.css
+  - _extra/css/workflow-demo.css
+  - _extra/css/feedback.css
+# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-javascript
+extra_javascript:
+  - _extra/javascript/extra.js
+
 theme:
   name: material
+  custom_dir: _overrides
+  font: false
   features:
+   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#announcement-bar
     - announce.dismiss
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
-    - content.action.view
+    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-annotations
     - content.code.annotate
+    # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#linked-content-tabs
+    - content.tabs.link
+    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-copy-button
     - content.code.copy
+    # https://squidfunk.github.io/mkdocs-material/reference/tooltips/#improved-tooltips
     - content.tooltips
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=footer#navigation
     - navigation.footer
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
     - navigation.indexes
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-path
+    - navigation.path
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-sections
     - navigation.sections
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#navigation-tabs
     - navigation.tabs
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
     - navigation.top
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#anchor-tracking
     - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotate
+    # - content.code.copy
+    # - content.tooltips
+    # - navigation.footer
+    # - navigation.indexes
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.top
+    # - navigation.tracking
+    # - search.highlight
+    # - search.share
+    # - search.suggest
+    # - toc.follow
 
   palette:
     # Palette toggle for light mode
@@ -53,20 +92,6 @@ theme:
 # Plugins
 plugins:
   - blog
-
-# Page tree
-nav:
-  - Home: index.md
-  - Platform:
-    - Tổng quan: getting-started.md
-    - OpenAPI: openapi.md
-    - Demo: demo-content.md
-
-  - Devices:
-    - Overview: overview.md
-  - Tutorials:
-    - Overview: tutorial.md
-  - FAQ: faq.md
 
 # Additional configuration
 extra:
@@ -134,3 +159,4 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+INHERIT: ./nav.yml

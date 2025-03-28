@@ -1,0 +1,20 @@
+# Page tree
+nav:
+  - Home: index.md
+  - Platform:
+    - Tổng quan: getting-started.md
+    - OpenAPI: openapi.md
+    - Demo: demo-content.md
+
+  - Open API:
+    - api/index.md
+
+  - Devices:
+    - devices/index.md
+    - Dashcam:
+      - GH13P: devices/dashcam/gh13p.md
+
+  - Tutorials:
+    - Overview: tutorial.md
+
+  - FAQ: faq.md
