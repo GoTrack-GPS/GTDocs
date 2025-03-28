@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: GoTrack Support Center _
+site_name: GoTrack Support Center
 site_url: https://support.gotrack365.com
 site_author: GoTrack
 site_description: >-
@@ -22,7 +22,7 @@ extra_javascript:
 theme:
   name: material
   custom_dir: _overrides
-  font: false
+  font: true
   features:
    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#announcement-bar
     - announce.dismiss
@@ -101,13 +101,6 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/lieubv
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCoJe07nHjdBUT6oqIAR8KcA
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/gotrackvn/
 
 # Extensions
 markdown_extensions:
