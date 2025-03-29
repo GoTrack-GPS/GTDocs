@@ -11,8 +11,15 @@ nav:
 
   - Devices:
     - devices/index.md
+    - GPS-4G:
+      - S400E: devices/gps/s400e.md
+
     - Dashcam:
       - GH13P: devices/dashcam/gh13p.md
+
+  - Commands:
+    - commands/index.md
+    - GoTrack: commands/gotrack.md
 
   - Tutorials:
     - tutorial/index.md

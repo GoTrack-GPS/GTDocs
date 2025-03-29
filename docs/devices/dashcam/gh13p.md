@@ -3,11 +3,7 @@
 contentType: [device, dashcam]
 ---
 
-# Tập lệnh Platform cho thiết bị GH13P
+# Tập lệnh
 
-## Cài đặt bật/tắt audio
+Xem chi tiết tập lệnh theo Nhà sản xuất [BSJ](/commands/bsj)
 
-```
-<EXT00HEXT33/dvr/bin/bsjctl audioformat set 0>
-```
-0 is off, 1 is on
